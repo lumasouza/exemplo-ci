@@ -33,7 +33,7 @@ public class CalculadoraServiceTest {
         CalculadoraService calculadoraService = new CalculadoraService();
         Double a = 10.0;
         Double b = 0.0;
-        var expectedMessage = "400 BAD REQUEST \"Não é possível dividir por zero\"";
+        var expectedMessage = "400 BAD_REQUEST \"Não é possível dividir por zero\"";
 
         // Ação
         ResponseStatusException exception = assertThrows(
